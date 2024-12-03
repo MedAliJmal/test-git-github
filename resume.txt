@@ -1,0 +1,31 @@
+------------------------------------- GIT & GITHUB ----------------------------
+
+1 - What is git ? => VCS => Version Control System : to manipulate versions of projects
+2 - Rapidity & disponibility / High data storage - Replication (FORK / CLONE) / Open Source / Collaboration (multiple branches)
+3 - 
+
+♦ first step is to open git bash
+♦ go to the specific directory you're working on 
+♦ git init : create a local repository (hidden folder .git)
+♦ git add .... : select the files you want to upload (opens the staging area)
+♦ git commit -m "esm l version" : close the staging area and confirm files 
+♦ git branch -M main : choose the branch you're working on 
+♦ git remote url rep : infrom the vcs about the repository we're uploading the work on 
+♦ git push => final step add files to the remote repository 
+
+
+
+-----------
+mkdir :  create folder 
+cd : enter to a folder 
+touch : create file 
+
+git status (ba3d l git add) => to know what's happening in the staging area 
+git log (historique de commits)
+git rm (delete file)
+git rm --cashed (delete file from staging area)
+
+git config --global user.name "MedAliJmal"
+git config --global user.email "email@email.com"
+
+git config --list
